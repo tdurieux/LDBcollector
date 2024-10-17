@@ -50,7 +50,6 @@ applySources curation = do
           applySource (OrtLicenseClassifications "ort-config" "./data/oss-review-toolkit-ort-config/license-classifications.yml"),
           applySource (OrtLicenseClassifications "doubleopen" "./data/doubleopen-project-policy-configuration/license-classifications.yml"),
           applySource (CavilLicenseChanges "./data/openSUSE-cavil/lib/Cavil/resources/license_changes.txt"),
-          applySource (Metaeffekt True "./data/org-metaeffekt-metaeffekt-universe/src/main/resources/ae-universe"),
           applySource (HermineData "./data/hermine-project-hermine-data"),
           applySource (Warpr "./data/warpr-licensedb/data"),
           applySource (FossLicenseVar "./data/hesa-foss-licenses/var"),
